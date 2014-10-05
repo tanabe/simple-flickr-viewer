@@ -1,0 +1,56 @@
+body {
+  font-size: 1.2em;
+  line-height: 1.2em;
+}
+
+a {
+  text-decoration: none;
+  color: #0000ff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a img {
+  border: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+div#container {
+  width: 780px;
+  margin: 40px auto;
+}
+
+div.thumbnail {
+  width: 240px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  padding-bottom: 20px;
+}
+
+div#moreButtonContainer {
+  text-align: center;
+  font-size: 2em;
+}
+
+span#loading {
+  display: none;
+}
+
+a#moreButton {
+  display: none;
+}
+
+div.thumbnail.center {
+  margin: 0 20px;
+}
+
+div.thumbnail a img {
+  vertical-align: bottom;
+}
+
